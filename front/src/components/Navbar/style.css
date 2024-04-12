@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+    #navbar {
+        width: 100vw;
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        background-color: #157d7e;
+        align-items: center;
+    }
+
+    #navbar-links {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar-link {
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    #navbar-titulo {
+        width: 200px;
+        height: 100px;
+    }
+
+    #navbar-logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    #navbar {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #157d7e;
+    }
+
+    #navbar-titulo {
+        width: 200px;
+        height: 100px;
+    }
+
+    #navbar-logo {
+        width: 150px;
+        height: 50px;
+    }
+
+    #navbar-links {
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar-link {
+        text-decoration: none;
+        color: #FFF;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    #navbar {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #157d7e;
+    }
+
+    #navbar-titulo {
+        width: 200px;
+        height: 100px;
+    }
+
+    #navbar-logo {
+        width: 150px;
+        height: 50px;
+    }
+
+    #navbar-links {
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar-link {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    #navbar {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #157d7e;
+    }
+
+    #navbar-titulo {
+        width: 300px;
+        height: 150px;
+    }
+
+    #navbar-logo {
+        width: 250px;
+        height: 100px;
+    }
+
+    #navbar-links {
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar-link {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    #navbar {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #157d7e;
+    }
+
+    #navbar-titulo {
+        width: 300px;
+        height: 150px;
+    }
+
+    #navbar-logo {
+        width: 250px;
+        height: 100px;
+    }
+
+    #navbar-links {
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar-link {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 32px;
+    }
+}
+
+.navbar-link:hover {
+    color: #999;
+}
+
+
+
+
