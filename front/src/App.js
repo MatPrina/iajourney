@@ -1,9 +1,9 @@
 import React from 'react'
-import Home from './pages/Home'
+import Clima from './pages/Clima'
 
 const App = () => {
     return (
-        <Home />
+        <Clima />
     )
 }
 

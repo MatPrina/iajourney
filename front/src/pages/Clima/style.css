@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+    #clima-container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+    }
+
+    #clima-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    #clima-search {
+        background-color: #157d7e;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    #clima-search-input {
+        border: none;
+        border-radius: 10px;
+        height: 60px;
+        text-align: center;
+    }
+
+    #clima-search-input:focus {
+        outline: none;
+    }
+
+    #clima-search-lupa {
+        height: 30px;
+        width: 30px;
+    }
+
+    #clima-response {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        background-color: #157d7e;
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    #clima-response-info {
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    #clima-response-info-grau {
+        font-size: 56px;
+        color: #FFF;
+        margin-left: 15px;
+    }
+
+    #clima-response-info-dia {
+        color: #FFF;
+        font-size: 32px;
+    }
+
+    #clima-response-nuvem {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    #clima-container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+    }
+
+    #clima-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    #clima-search {
+        background-color: #157d7e;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        border-radius: 15px;
+        padding: 15px;
+        width: 450px;
+    }
+
+    #clima-search-input {
+        border: none;
+        border-radius: 10px;
+        height: 60px;
+        text-align: center;
+        flex: 1;
+    }
+
+    #clima-search-input:focus {
+        outline: none;
+    }
+
+    #clima-search-lupa {
+        height: 30px;
+        width: 30px;
+    }
+
+    #clima-response {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #157d7e;
+        border-radius: 15px;
+        padding: 15px;
+        width: 500px;
+    }
+
+    #clima-response-info {
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    #clima-response-info-grau {
+        font-size: 72px;
+        color: #FFF;
+        margin-left: 15px;
+    }
+
+    #clima-response-info-dia {
+        color: #FFF;
+        font-size:56px;
+    }
+
+    #clima-response-nuvem {
+        height: 225px;
+        width: 225px;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    #clima-container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+    }
+
+    #clima-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    #clima-search {
+        background-color: #157d7e;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        border-radius: 15px;
+        padding: 15px;
+        width: 450px;
+    }
+
+    #clima-search-input {
+        border: none;
+        border-radius: 10px;
+        height: 60px;
+        text-align: center;
+        flex: 1;
+    }
+
+    #clima-search-input:focus {
+        outline: none;
+    }
+
+    #clima-search-lupa {
+        height: 30px;
+        width: 30px;
+    }
+
+    #clima-response {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #157d7e;
+        border-radius: 15px;
+        padding: 15px;
+        width: 700px;
+    }
+
+    #clima-response-info {
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    #clima-response-info-grau {
+        font-size: 92px;
+        color: #FFF;
+        margin-left: 15px;
+    }
+
+    #clima-response-info-dia {
+        color: #FFF;
+        font-size: 72px;
+    }
+
+    #clima-response-nuvem {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    #clima-container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+    }
+
+    #clima-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    #clima-search {
+        background-color: #157d7e;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        border-radius: 15px;
+        padding: 15px;
+        width: 450px;
+    }
+
+    #clima-search-input {
+        border: none;
+        border-radius: 10px;
+        height: 60px;
+        text-align: center;
+        flex: 1;
+    }
+
+    #clima-search-input:focus {
+        outline: none;
+    }
+
+    #clima-search-lupa {
+        height: 30px;
+        width: 30px;
+    }
+
+    #clima-response {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #157d7e;
+        border-radius: 15px;
+        padding: 15px;
+        width: 900px;
+    }
+
+    #clima-response-info {
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    #clima-response-info-grau {
+        font-size: 112px;
+        color: #FFF;
+        margin-left: 15px;
+    }
+
+    #clima-response-info-dia {
+        color: #FFF;
+        font-size: 92px;
+    }
+
+    #clima-response-nuvem {
+        height: 375px;
+        width: 375px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    #clima-container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+    }
+
+    #clima-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    #clima-search {
+        background-color: #157d7e;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        border-radius: 15px;
+        padding: 15px;
+        width: 450px;
+    }
+
+    #clima-search-input {
+        border: none;
+        border-radius: 10px;
+        height: 60px;
+        text-align: center;
+        flex: 1;
+    }
+
+    #clima-search-input:focus {
+        outline: none;
+    }
+
+    #clima-search-lupa {
+        height: 30px;
+        width: 30px;
+    }
+
+    #clima-response {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #157d7e;
+        border-radius: 15px;
+        padding: 15px;
+        width: 1000px;
+    }
+
+    #clima-response-info {
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    #clima-response-info-grau {
+        font-size: 132px;
+        color: #FFF;
+        margin-left: 15px;
+    }
+
+    #clima-response-info-dia {
+        color: #FFF;
+        font-size: 112px;
+    }
+
+    #clima-response-nuvem {
+        height: 450px;
+        width: 450px;
+    }
+}
