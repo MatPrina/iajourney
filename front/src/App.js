@@ -1,9 +1,10 @@
 import React from 'react'
-import Clima from './pages/Clima'
+import rotas from './router.js'
+import { RouterProvider } from 'react-router-dom'
 
 const App = () => {
     return (
-        <Clima />
+        <RouterProvider router={rotas}/>
     )
 }
 

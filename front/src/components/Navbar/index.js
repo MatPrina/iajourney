@@ -2,13 +2,14 @@ import React from 'react'
 import logo from '../../assets/logotipoIAJOURNEY.jpg'
 import titulo from '../../assets/tituloIAJOURNEY.jpg'
 import './style.css'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
         <nav id="navbar">
-            <img src={titulo} alt="Título da IAJOURNEY" id="navbar-titulo"/>
+            <Link to="/"><img src={titulo} alt="Título da IAJOURNEY" id="navbar-titulo"/></Link>
             <div id="navbar-links">
-                <a href="#" className='navbar-link'>CLIMA</a>
+                <Link to="/clima" className='navbar-link'>CLIMA</Link>
                 <a href="#" className='navbar-link'>DICAS</a>
                 <a href="#" className='navbar-link'>SOBRE</a>
             </div>
