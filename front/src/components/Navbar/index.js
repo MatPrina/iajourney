@@ -10,7 +10,7 @@ const Navbar = () => {
             <Link to="/"><img src={titulo} alt="Título da IAJOURNEY" id="navbar-titulo"/></Link>
             <div id="navbar-links">
                 <Link to="/clima" className='navbar-link'>CLIMA</Link>
-                <a href="#" className='navbar-link'>DICAS</a>
+                <Link to="/dicas" className='navbar-link'>DICAS</Link>
                 <a href="#" className='navbar-link'>SOBRE</a>
             </div>
             <img src={logo} alt="Logo da IAJOURNEY" id="navbar-logo"/>
