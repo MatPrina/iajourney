@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.caixa-nome {
+    color: #157d7e;
+    font-size: 18px;
+}
+
+#caixa-entrada {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    width: 50%;
+    align-self: flex-end;
+}
+
+#caixa-conteudo-entrada {
+    background-color: #157d7e;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    color: #ddffe7;
+}
+
+#caixa-conteudo-entrada:focus {
+    outline: none;
+}
+
+#caixa-saida {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 50%;
+}
+
+#caixa-conteudo-saida {
+    background-color: #157d7e;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    color: #ddffe7;
+    word-wrap: break-word;
+}

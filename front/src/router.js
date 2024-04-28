@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home'
 import Clima from './pages/Clima'
 import Dicas from './pages/Dicas'
+import Chatravel from './pages/Chatravel'
 
 const rotas = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ const rotas = createBrowserRouter([
     {
         path: "/dicas",
         element: <Dicas />
+    },
+    {
+        path: "/chat",
+        element: <Chatravel />
     }
 ])
 

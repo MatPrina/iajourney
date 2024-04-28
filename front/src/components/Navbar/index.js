@@ -13,7 +13,7 @@ const Navbar = () => {
                 <Link to="/dicas" className='navbar-link'>DICAS</Link>
                 <a href="#" className='navbar-link'>SOBRE</a>
             </div>
-            <img src={logo} alt="Logo da IAJOURNEY" id="navbar-logo"/>
+           <Link to="/chat"><img src={logo} alt="Logo da IAJOURNEY" id="navbar-logo"/></Link>
         </nav>
     )
 }
