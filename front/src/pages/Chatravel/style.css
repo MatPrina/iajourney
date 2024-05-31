@@ -37,3 +37,21 @@
     display: flex;
     flex-direction: column;
 }
+
+#chat-input {
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 26px;
+    border: none;
+    background-color:#157d7e;
+    color: white;
+}
+
+#chat-input::placeholder {
+    color: white;
+}
+
+#chat-input:focus {
+    outline: none;
+}

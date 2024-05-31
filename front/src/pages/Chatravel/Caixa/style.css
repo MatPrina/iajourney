@@ -27,6 +27,8 @@
     padding: 15px;
     font-size: 16px;
     color: #ddffe7;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 #caixa-conteudo-entrada:focus {
@@ -50,4 +52,6 @@
     font-size: 16px;
     color: #ddffe7;
     word-wrap: break-word;
+    max-width: 100%;
+    min-width: 100%;
 }
