@@ -11,7 +11,7 @@ const Navbar = () => {
             <div id="navbar-links">
                 <Link to="/clima" className='navbar-link'>CLIMA</Link>
                 <Link to="/dicas" className='navbar-link'>DICAS</Link>
-                <a href="#" className='navbar-link'>SOBRE</a>
+                <Link to="/sobre" className='navbar-link'>SOBRE</Link>
             </div>
            <Link to="/chat"><img src={logo} alt="Logo da IAJOURNEY" id="navbar-logo"/></Link>
         </nav>

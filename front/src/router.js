@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Clima from './pages/Clima'
 import Dicas from './pages/Dicas'
 import Chatravel from './pages/Chatravel'
+import Sobre from './pages/Sobre'
 
 const rotas = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const rotas = createBrowserRouter([
     {
         path: "/chat",
         element: <Chatravel />
+    },
+    {
+        path: "/sobre",
+        element: <Sobre />
     }
 ])
 

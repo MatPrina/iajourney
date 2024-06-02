@@ -8,9 +8,9 @@ const App = () => {
     )
 }
 
-const connection = require('./db');
+/*const connection = require('./db');
 
-// Agora você pode usar a conexão para executar consultas SQL
+ Agora você pode usar a conexão para executar consultas SQL
 async function fetchData() {
   try {
     const [rows, fields] = await connection.execute('SELECT * FROM sua_tabela');
@@ -20,6 +20,6 @@ async function fetchData() {
   }
 }
 
-fetchData();
+fetchData();*/
 
 export default App
